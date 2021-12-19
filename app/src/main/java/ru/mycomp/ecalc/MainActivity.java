@@ -1,24 +1,41 @@
 package ru.mycomp.ecalc;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
+
+    TextView screen;
+    String text = "";
+    int num, lastNum = 0;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (savedInstanceState != null) {
+            num = savedInstanceState.getInt("num");
+            lastNum = savedInstanceState.getInt("lastNum");
+            text = savedInstanceState.getString("text");
+            screen = findViewById(R.id.screen);
+            screen.setText(text);
+        }
     }
 
-    String text = "";
-    int num, lastNum = 0;
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putInt("num", num);
+        savedInstanceState.putInt("lastNum", lastNum);
+        savedInstanceState.putString("text", text);
+    }
 
     public void button_onClick(View view) {
-        TextView screen = findViewById(R.id.screen);
+        screen = findViewById(R.id.screen);
         num = view.getId();
         Button button = findViewById(num);
         if ((text.length() == 0) && ((num == R.id.button_minus) ||
