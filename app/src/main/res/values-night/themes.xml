@@ -13,4 +13,38 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CenterButtonsStyle">
+        <item name="android:layout_width">@dimen/center_side_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/button_background_tint_night</item>
+        <item name="android:fontFamily">@string/button_font_family</item>
+        <item name="android:textColor">@color/default_text_color_night</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RightButtonsStyle">
+        <item name="android:layout_width">@dimen/right_side_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/button_background_tint_night</item>
+        <item name="android:fontFamily">@string/button_font_family</item>
+        <item name="android:textColor">@color/default_text_color_night</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ScreenStyle">
+        <item name="android:layout_width">@dimen/screen_width</item>
+        <item name="android:layout_height">@dimen/screen_height</item>
+        <item name="android:background">@color/button_background_tint_night</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textColor">@color/default_text_color_night</item>
+        <item name="android:textSize">@dimen/screen_text_size</item>
+    </style>
+
+    <style name="backStyle">
+        <item name="android:background">@drawable/ic_launcher_background_night</item>
+    </style>
+
 </resources>
