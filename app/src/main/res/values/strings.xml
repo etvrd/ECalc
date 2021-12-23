@@ -16,4 +16,5 @@
     <string name="_0">0</string>
     <string name="enter">=</string>
     <string name="slash">/</string>
+    <string name="back">⌫</string>
 </resources>

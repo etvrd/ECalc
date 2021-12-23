@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/button_1"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:fontFamily="sans-serif-black"
@@ -28,7 +28,7 @@
 
     <Button
         android:id="@id/button_2"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@id/button_3"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -64,7 +64,7 @@
 
     <Button
         android:id="@id/button_minus"
-        android:layout_width="50dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -82,7 +82,7 @@
 
     <Button
         android:id="@id/button_4"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -100,7 +100,7 @@
         app:strokeWidth="1dp" />
     <Button
         android:id="@id/button_5"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -118,7 +118,7 @@
 
     <Button
         android:id="@id/button_6"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -136,7 +136,7 @@
 
     <Button
         android:id="@id/button_plus"
-        android:layout_width="50dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -154,7 +154,7 @@
 
     <Button
         android:id="@id/button_7"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -172,7 +172,7 @@
         app:strokeWidth="1dp" />
     <Button
         android:id="@id/button_8"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -190,7 +190,7 @@
 
     <Button
         android:id="@id/button_9"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -208,7 +208,7 @@
 
     <Button
         android:id="@id/button_x"
-        android:layout_width="50dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -226,7 +226,7 @@
 
     <Button
         android:id="@+id/button_point"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -244,7 +244,7 @@
         app:strokeWidth="1dp" />
     <Button
         android:id="@id/button_0"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -262,7 +262,7 @@
 
     <Button
         android:id="@id/button_enter"
-        android:layout_width="60dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -280,7 +280,7 @@
 
     <Button
         android:id="@id/button_slash"
-        android:layout_width="50dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
@@ -312,7 +312,7 @@
 
     <Button
         android:id="@+id/button_back"
-        android:layout_width="50dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif-black"
