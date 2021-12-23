@@ -17,4 +17,5 @@
     <string name="enter">=</string>
     <string name="slash">/</string>
     <string name="back">⌫</string>
+    <string name="button_font_family">sans-serif-black</string>
 </resources>
